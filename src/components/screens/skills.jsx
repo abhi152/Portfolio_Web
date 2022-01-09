@@ -9,8 +9,9 @@ const Skillcard = (props) => {
         <div
             style=
             {{
-                "maxWidth": "500px", "maxHeight": "50px", "marginTop": "20px", "marginLeft": "200px",
+                "maxWidth": "500px", "maxHeight": "50px", "marginTop": "30px", "marginLeft": "200px",
                 "borderRadius": "10px"
+
             }} class="card horizontal">
 
             <div class="card-icon ">
@@ -22,7 +23,7 @@ const Skillcard = (props) => {
                 <div style={{ "width": props.width * 4 }} class="determinate"></div>
             </div>
             <h6 style={{
-                fontFamily: "'Bakbak One', cursive"
+                fontFamily: "'Bakbak One', cursive", color: "black"
             }}>{props.width}%</h6>
 
         </div>
@@ -39,22 +40,30 @@ const Cpskill = (props) => {
                 "borderRadius": "10px",
                 marginTop: "60px",
                 display: "flex",
-                justifyContent: "space-between"
+                justifyContent: "space-between",
+                color: "black"
 
 
 
             }} class="card horizontal">
 
-            <div>
-                <img style={{ borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px", "objectFit": "contain", height: "100%", width: "150px" }} src={props.iconlink} />
+            <div >
+                <img style={{ borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px", "objectFit": "contain", height: "100%", width: "100px" }} src={props.iconlink} />
             </div>
 
-            <div style={{ marginLeft: "20px" }}>
-                <p style={{ fontFamily: "Verdana, Geneva, Tahoma, sans-serif" }}>
+            <div style={{ marginLeft: "20px", color: "black" }}>
+                <p style={{ fontFamily: "Verdana, Geneva, Tahoma, sans-serif", marginLeft: "15px", color: "black", marginRight: "10px" }}>
+
                     {props.info}
+
                 </p>
-                <a href={props.proflink}>Profile Link : <u style={{ color: "blue" }}>{props.proflink}</u></a>
+
+                <a style={{ "marginLeft": "15px" }} color="white" href={props.proflink}> Profile Link: <u style={{ color: "blue", marginLeft: "10px" }}>{props.proflink}</u></a>
+
+
             </div>
+
+
 
 
         </div>
@@ -64,46 +73,48 @@ const Skills = () => {
 
     return (
         <div>
-            <div style={{ "display": "flex", "flexWrap": "wrap", "justifyContent": "space-between" }}>
+            <div style={{ "display": "flex", "flexWrap": "wrap", "justifyContent": "space-between", color: "white" }}>
                 <div>
-                    <div style={{ "marginLeft": "200px" }}>
+                    <div style={{ "marginLeft": "200px", "marginTop": "20px" }}>
                         <h4 className="skilltitle">Profeesional Experience</h4>
-
+                        <br />
                         <p className="skillbody">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo excepturi ipsa illo animi saepe magnam a sed voluptates dolorem quae, nemo officia nihil ab, rem unde possimus dolores minima eius.
+                            Professional skills are essential to work in industry. I constantly learning new Technologies and improving my skills.
+                            I have listed following skills with level of experience that I possessed at this moment.
+                            In addition to the below technical skill, I want to add database skills which are MySQL and mongo DB
                         </p>
                     </div>
                     <Skillcard
                         iconname="html5"
-                        width={100}
+                        width={60}
                     />
                     <Skillcard
                         iconname="c-plus-plus"
-                        width={10}
+                        width={80}
                     />
                     <Skillcard
                         iconname="java"
-                        width={20}
+                        width={80}
                     />
                     <Skillcard
                         iconname="javascript"
-                        width={30}
+                        width={50}
                     />
                     <Skillcard
                         iconname="python"
-                        width={70}
+                        width={60}
                     />
                     <Skillcard
                         iconname="react"
-                        width={40}
+                        width={65}
                     />
                     <Skillcard
                         iconname="nodejs"
-                        width={100}
+                        width={60}
                     />
                     <Skillcard
                         iconname="git"
-                        width={70}
+                        width={60}
                     />
 
 
@@ -115,17 +126,19 @@ const Skills = () => {
             <div>
                 <br />
                 <Divider variant="middle"
-
+                    color="white"
                 />
             </div>
 
-            <div style={{ "marginLeft": "200px" }}>
+            <div style={{ "marginLeft": "200px", color: "white" }}>
                 <h4 className="skilltitle">InterPersonal Skills </h4>
 
                 <h6 className="skilltitle">Problem Solving</h6>
 
                 <p className="skillbody">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo excepturi ipsa illo animi saepe magnam a sed voluptates dolorem quae, nemo officia nihil ab, rem unde possimus dolores minima eius.
+                    As an Engineer Problem solving is essential skill.
+                    This enables us to solve not only tech problems but can use these skills in another domains.
+                    I solve Coding questions on different coding platform and some them I have mention below.
                 </p>
 
 
@@ -134,30 +147,31 @@ const Skills = () => {
 
                         iconlink="https://img.icons8.com/color/144/000000/codechef.png/"
                         proflink="https://www.codechef.com/users/abhinav_152"
-                        info="Codechef is Very good platform for compatatving programinng.
-                                On this platform you can test your problem solving skills.
-                                I am Constaly active on this platform and faced lots of up down.
-                                I am currntly 3 star on it with max rating 1712 and aming for 5 start in Coming days."
+                        info="Codechef is Very good platform for competitive programming.
+                        On this platform you can test your problem solving skills.
+                        I am Constantly active on this platform and faced lots of up down.
+                        I am currently 3 star on it with max rating 1712 and aiming for 5 start in Coming days.
+"
                     />
 
                     <Cpskill
 
                         iconlink="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png"
                         proflink="https://www.hackerrank.com/abhinavkudnar152"
-                        info="Hacerrank is Very good platform for compatatving programinng.
-                                On this platform you can test your problem solving skills.
-                                I am Constaly active on this platform and faced lots of up down.
-                                I am currntly 3 star on it with max rating 1712 and aming for 5 start in Coming days."
+                        info="Hacerrank is platform where you will get problems according to different difficulty level.
+                         On this platform I have achieved 5 star rating in problem Solving.
+                         I have most of problems in C/C++ Language. 
+                         There are other various languages present on this platform .
+                              "
                     />
 
                     <Cpskill
 
                         iconlink="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png/"
                         proflink="https://leetcode.com/abhinavkudnar152/"
-                        info="Leetcode is Very good platform for compatatving programinng.
-                                On this platform you can test your problem solving skills.
-                                I am Constaly active on this platform and faced lots of up down.
-                                I am currntly 3 star on it with max rating 1712 and aming for 5 start in Coming days."
+                        info="LeetCode is the  platform to help you enhance your skills,
+                         expand your knowledge and prepare for technical interviews.
+                         I have started this recently but given me confidence on some medium level questions. "
                     />
 
 
@@ -165,29 +179,28 @@ const Skills = () => {
 
                         iconlink="https://img.icons8.com/color/48/000000/GeeksforGeeks.png"
                         proflink="https://auth.geeksforgeeks.org/user/abhinavkudnar152/profile"
-                        info="GFG is Very good platform for compatatving programinng.
-                                On this platform you can test your problem solving skills.
-                                I am Constaly active on this platform and faced lots of up down.
-                                I am currntly 3 star on it with max rating 1712 and aming for 5 start in Coming days."
+                        info="It is a Computer Science portal. It contains various articles on computer fundamentals. 
+                        I  solve problems related to data structure  and algorithm on this platform ."
                     />
 
                 </div>
 
-               
+
 
             </div>
             <div>
                 <br />
                 <Divider variant="middle"
-
+                    color="white"
                 />
-                 </div>
-                 
-            <div style={{ "marginLeft": "200px" }}>
+            </div>
+
+            <div style={{ "marginLeft": "200px", color: "white" }}>
                 <h4 className="skilltitle">Others Skills </h4>
 
                 <p className="skillbody">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo excepturi ipsa illo animi saepe magnam a sed voluptates dolorem quae, nemo officia nihil ab, rem unde possimus dolores minima eius.
+
+                I am also good at Communication skills and trying to improve it more as it is very essential in any domain.
                 </p>
             </div>
 

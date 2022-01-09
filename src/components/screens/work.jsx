@@ -8,7 +8,7 @@ const Intern = (props) => {
          
         */
         
-          <div style={{maxWidth:"600px", height:"400px", maxHeight:"900px",margin:"auto"  ,marginTop:"50px" ,textAlign:"center"}} class="card">
+          <div style={{maxWidth:"600px", height:"400px", maxHeight:"900px",margin:"auto"  ,marginTop:"50px" ,textAlign:"center" ,borderRadius:"10px" }} class="card">
             <div style={{marginTop:"10px"}}  >
               <img style={{width:props.x+"px",height:props.y+"px" ,marginLeft:"auto" ,marginTop:"20px" }} src={props.icon}/>
              
@@ -16,7 +16,7 @@ const Intern = (props) => {
             <div>
                 <br />
                 <Divider variant="middle"
-
+               
                 />
             </div>
             <div class="card-content">
@@ -26,6 +26,7 @@ const Intern = (props) => {
             </div>
             <div>
                 <Divider variant="middle"
+                
                 />
             </div>
             <div style={{alignSelf:"start" ,width:"400px" ,height:"100px", fontFamily: "Verdana, Geneva, Tahoma, sans-serif"}}>
@@ -44,7 +45,7 @@ const Work = () => {
     return (
         <div>
 
-            <div style={{ "marginLeft": "200px" }}>
+            <div style={{ "marginLeft": "200px" ,color:"white" }}>
                 <h4 className="skilltitle">Work Experience/Internships</h4>
             </div>
 
@@ -70,10 +71,11 @@ const Work = () => {
             <div>
                 <br />
                 <Divider variant="middle"
+                color="white"
                 />
             </div>
 
-            <div style={{ "marginLeft": "200px" }}>
+            <div style={{ "marginLeft": "200px", color:"white" }}>
                 <h4 className="skilltitle">Clubs/ Volunteer</h4>
             </div>
 

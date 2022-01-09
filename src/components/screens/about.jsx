@@ -3,22 +3,22 @@ import React from "react";
 const About = () => {
 
     return (
-        <div className="about">
+        <div className="about" style={{"color":"white"}} >
             <div >
                 <img className="aboutimage" src={require('./images/aboutimage.jpg')} />
             </div>
             <div >
-                <h5 className="discription">I'm Abhinav Kudnar</h5>
+                <h5  className="discription">I'm Abhinav Kudnar</h5>
                 <div>
                     <p className="mypara">
                         I am Pre Final Year Student at Pune Institute of Computer Technology and Currently Persuing
-                        Under graduate degrre in Computer Engeneering.
+                        Under graduate degree in Computer Engineering .
                     </p>
                     <br/>
                     <p className="mypara">
-                        I basically belongs to nashik where i have done my school Education.
-                        I like Probelm Solving  and specifically Compatative programiing and hence improving my prblem Solving Skills
-                        I have also Started Web Devolpment with MERN Stack and this is My portfollio website.
+                        I  belongs to Nashik where i have done my school Education.
+                        I like Problem Solving  and specifically doing Compatative Programming and hence improving my problem Solving Skills.
+                        I have also Started Web Devolpment with MERN Stack and this is My Portfolio website.
                     </p>
 
                 </div>

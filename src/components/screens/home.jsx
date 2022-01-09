@@ -1,3 +1,4 @@
+import { color } from "@mui/system";
 import React from "react";
 
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
@@ -8,10 +9,10 @@ const Home = () => {
   return (
 
 
-    <div style={{ "display": "flex", "flexWrap": "wrap", "justifyContent": "space-between" }}>
+    <div style={{ "display": "flex", "flexWrap": "wrap", "justifyContent": "space-between", color:"white" }}>
       <div className="Myname">
         <h1>Hi,</h1>
-        <h1>I'am <span style={{ "color": "indigo" }}>Abhinav</span></h1>
+        <h1>I'am <span style={{ "color": "violet" }}>Abhinav</span></h1>
         <h1>Web Developer</h1>
 
         <a style={{ "marginTop": "30px",borderRadius:"30px"}} color="blue" className="waves-effect waves-light btn-large indigo"
