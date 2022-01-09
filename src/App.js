@@ -7,7 +7,8 @@ import Work from 'd:/React/Portfolio/src/components/screens/Work';
 import Contact from 'd:/React/Portfolio/src/components/screens/Contact';
 
 import Footer from 'd:/React/Portfolio/src/components/screens/Footer';
-import 'd:/React/Portfolio/src/App.css';
+
+import './App.css';
 
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import { Route } from 'react-router-dom';
