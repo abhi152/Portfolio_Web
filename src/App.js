@@ -1,5 +1,5 @@
 
-import Navbar from './components/screens/Navbar';
+import Navbar from 'd:/React/Portfolio/src/components/screens/Navbar';
 import Home from './components/screens/Home';
 import Skills from './components/screens/Skills';
 import About from './components/screens/About';
