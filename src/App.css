@@ -80,6 +80,8 @@ height:50px;
     border-radius: 10px !important;
     margin: 20px !important;
     padding: 0px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
 }
 .contactmessage{
     
@@ -88,7 +90,9 @@ height:50px;
      border-radius: 10px !important;
      margin: 20px !important;
      padding: 5px !important;
-    
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+     resize: none;
  }
 
  .contact::placeholder  {
@@ -96,4 +100,7 @@ height:50px;
   }
   .contactmessage::placeholder{
     font-family: 'Bakbak One', cursive;
+    
   }
+ 
+ 

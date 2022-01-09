@@ -1,6 +1,6 @@
 import React from "react";
 
-const skillcard=()=>{
+const Skillcard=()=>{
     return(
         <div 
         style=
@@ -22,4 +22,4 @@ const skillcard=()=>{
 
     )
 }
-export default skillcard;
+export default Skillcard;

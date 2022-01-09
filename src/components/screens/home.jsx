@@ -1,8 +1,10 @@
 import React from "react";
 
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
+const Home = () => {
 
-const home = () => {
+ const history=useHistory();
   return (
 
 
@@ -12,7 +14,11 @@ const home = () => {
         <h1>I'am <span style={{ "color": "indigo" }}>Abhinav</span></h1>
         <h1>Web Developer</h1>
 
-        <a style={{ "marginTop": "30px",borderRadius:"30px"}} color="blue" className="waves-effect waves-light btn-large indigo"><i className="material-icons right">call</i>Contact</a>
+        <a style={{ "marginTop": "30px",borderRadius:"30px"}} color="blue" className="waves-effect waves-light btn-large indigo"
+        onClick={()=>{
+            history.push('/contact')
+        }}
+        ><i className="material-icons right">call</i>Contact</a>
       </div >
 
       <div >
@@ -29,4 +35,4 @@ const home = () => {
 
   )
 }
-export default home;
+export default Home;

@@ -7,7 +7,7 @@ import { positions, width } from "@mui/system";
 const date = new Date();
 console.log(date.getFullYear())
 
-const footer = () => {
+const Footer = () => {
     return (
         <div>
             <footer style={{marginTop:"85px"}} className="page-footer #000000 black">
@@ -36,4 +36,4 @@ const footer = () => {
         </div>
     )
 }
-export default footer;
+export default Footer;

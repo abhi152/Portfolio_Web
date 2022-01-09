@@ -1,12 +1,12 @@
 
-import Navbar from './components/screens/navbar';
-import Home from './components/screens/home';
-import Skills from './components/screens/skills';
-import About from './components/screens/about';
-import Work from './components/screens/work';
-import Contact from './components/screens/contact';
+import Navbar from './components/screens/Navbar';
+import Home from './components/screens/Home';
+import Skills from './components/screens/Skills';
+import About from './components/screens/About';
+import Work from './components/screens/Work';
+import Contact from './components/screens/Contact';
 
-import Footer from './components/screens/footer';
+import Footer from './components/screens/Footer';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import { Route } from 'react-router-dom';
