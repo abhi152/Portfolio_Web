@@ -1,12 +1,12 @@
 
-import Navbar from './Components/Screens/Navbar.jsx';
-import Home from './Components/Screens/Home.jsx';
-import Skills from './Components/Screens/Skills.jsx';
-import About from './Components/Screens/About.jsx';
-import Work from './Components/Screens/Work.jsx';
-import Contact from './Components/Screens/Contact.jsx';
+import Navbar from './Components/Screens/navbar.jsx';
+import Home from './Components/Screens/home.jsx';
+import Skills from './Components/Screens/skills.jsx';
+import About from './Components/Screens/about.jsx';
+import Work from './Components/Screens/work.jsx';
+import Contact from './Components/Screens/contact.jsx';
 
-import Footer from './Components/Screens/Footer.jsx';
+import Footer from './Components/Screens/footer.jsx';
 
 import './App.css';
 
