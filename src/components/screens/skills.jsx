@@ -1,7 +1,6 @@
 import React from "react";
 import Divider from '@mui/material/Divider';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faGoogle } from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Skillcard = (props) => {
@@ -48,7 +47,7 @@ const Cpskill = (props) => {
             }} class="card horizontal">
 
             <div >
-                <img style={{ borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px", "objectFit": "contain", height: "100%", width: "100px" }} src={props.iconlink} />
+                <img style={{ borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px", "objectFit": "contain", height: "100%", width: "100px" }} src={props.iconlink} alt="" />
             </div>
 
             <div style={{ marginLeft: "20px", color: "black" }}>
@@ -120,7 +119,7 @@ const Skills = () => {
 
                 </div>
                 <div className="skillimg" >
-                    <img className="workingimage" src={require('./images/working.jpg')} />
+                    <img className="workingimage" src={require('./images/working.jpg')} alt="" />
                 </div>
             </div>
             <div>

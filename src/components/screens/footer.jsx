@@ -1,8 +1,7 @@
 import React from "react";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { GitHub, LinkedIn } from "@mui/icons-material";
-import { Icon } from '@iconify/react';
-import { positions, width } from "@mui/system";
+
 
 const date = new Date();
 console.log(date.getFullYear())

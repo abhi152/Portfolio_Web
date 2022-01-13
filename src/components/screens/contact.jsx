@@ -1,7 +1,7 @@
 import React from "react";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
-import { borderColor } from "@mui/system";
+
 
 
 
@@ -62,12 +62,14 @@ const Contact = () => {
             }}></textarea>
             </div>
             <div style={{"width":"400px",margin:"auto"}}>
-            <a style={{  borderRadius:"30px" ,float:"right"}} color="blue" className="waves-effect waves-light btn-large indigo" onClick={()=>{
+            <a href="" style={{  borderRadius:"30px" ,float:"right"}} color="blue" className="waves-effect waves-light btn-large indigo" onClick={()=>{
                 sendEmail()
                 setName("")
                 setEmail("")
                 setMessage("")
             }}><i className="material-icons right" >send</i>Send</a>
+
+            
             </div>
             
         </div>

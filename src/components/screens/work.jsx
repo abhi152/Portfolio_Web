@@ -1,16 +1,13 @@
 import React from "react";
 import Divider from '@mui/material/Divider';
-import { maxHeight } from "@mui/system";
+
 const Intern = (props) => {
     return (
-        //"
-        /*
-         
-        */
+       
         
           <div style={{maxWidth:"600px", height:"400px", maxHeight:"900px",margin:"auto"  ,marginTop:"50px" ,textAlign:"center" ,borderRadius:"10px" }} class="card">
             <div style={{marginTop:"10px"}}  >
-              <img style={{width:props.x+"px",height:props.y+"px" ,marginLeft:"auto" ,marginTop:"20px" }} src={props.icon}/>
+              <img style={{width:props.x+"px",height:props.y+"px" ,marginLeft:"auto" ,marginTop:"20px" }} src={props.icon} alt=""/>
              
             </div>
             <div>
