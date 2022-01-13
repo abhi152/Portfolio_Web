@@ -15,11 +15,11 @@ const Home = () => {
         <h1>I'am <span style={{ "color": "violet" }}>Abhinav</span></h1>
         <h1>Web Developer</h1>
 
-        <a href="" style={{ "marginTop": "30px",borderRadius:"30px"}} color="blue" className="waves-effect waves-light btn-large indigo"
+        <button  style={{ "marginTop": "30px",borderRadius:"30px"}} color="blue" className="waves-effect waves-light btn-large indigo"
         onClick={()=>{
             history.push('/contact')
         }}
-        ><i className="material-icons right">call</i>Contact</a>
+        ><i className="material-icons right">call</i>Contact</button>
       </div >
 
       <div >
