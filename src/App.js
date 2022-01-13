@@ -1,5 +1,5 @@
 
-import Navbar from './components/creens/navbar.jsx';
+import Navbar from './components/screens/navbar.jsx';
 import Home from './components/screens/home.jsx';
 import Skills from './components/screens/skills.jsx';
 import About from './components/screens/about.jsx';
