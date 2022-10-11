@@ -79,7 +79,7 @@ const Work = () => {
             <div>
             <Intern
                 orgname="PCSB"
-                icon="https://media-exp1.licdn.com/dms/image/C4E0BAQHrTMepCzRupQ/company-logo_200_200/0/1627144153563?e=1649894400&v=beta&t=GmT-ozue1jM_AaJzrxg7Vs1QPC7TlsB9yItH0t3sn_0"
+                icon="https://www.pictcsi.com/assets/CSI%20Logo%20Nav.png"
                 city="Pune"
                 country="India"
                 role="Competitve Programming Team"
@@ -94,7 +94,7 @@ const Work = () => {
                 />
                 <Intern
                 orgname="PCSB"
-                icon="https://media-exp1.licdn.com/dms/image/C4E0BAQHrTMepCzRupQ/company-logo_200_200/0/1627144153563?e=1649894400&v=beta&t=GmT-ozue1jM_AaJzrxg7Vs1QPC7TlsB9yItH0t3sn_0"
+                icon="https://www.pictcsi.com/assets/CSI%20Logo%20Nav.png"
                 city="Pune"
                 country="India"
                 role="Marketting Team"

@@ -9,7 +9,7 @@ console.log(date.getFullYear())
 const Footer = () => {
     return (
         <div>
-            <footer style={{marginTop:"85px"}} className="page-footer black">
+            <footer style={{marginTop:"85px" }} className="page-footer black">
                 <div style={{ "textAlign": "center", "cursor": "pointer" }} className="container">
 
                     <LinkedIn onClick={(event) => {
