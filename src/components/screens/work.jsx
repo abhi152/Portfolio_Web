@@ -45,7 +45,49 @@ const Work = () => {
             <div style={{ "marginLeft": "200px" ,color:"white" }}>
                 <h4 className="skilltitle">Work Experience/Internships</h4>
             </div>
-
+            
+            <div>
+                <Intern
+                orgname="Espressif Systems"
+                icon="https://www.espressif.com/sites/all/themes/espressif/logo-black.svg"
+                city="Pune"
+                country="India"
+                role="Upcoming Associate Software Enginner Intern"
+                startdate="Jan/2023"
+                enddate="Jul/2023"
+                info="Espressif Systems (688018.SH) is a public multinational, fabless semiconductor company established in 2008, with offices in China, the Czech Republic, India, Singapore and Brazil. We have a passionate team of engineers and scientists from all over the world."
+                x="200"
+                y="100"
+                />
+            </div>
+            <div>
+                <Intern
+                orgname="ElasticRun"
+                icon="https://entrackr-bucket.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/02/08001951/Elasticrun.jpg"
+                city="Pune"
+                country="India"
+                role="Associate Intern"
+                startdate="Sept/2022"
+                enddate="Dec/2022"
+                info="ElasticRun extends the reach of brand’s direct distribution networks to deep rural markets. It enables access to a set of net new stores and customers for the brands, which were not accessible through the traditional distribution networks."
+                x="200"
+                y="100"
+                />
+            </div>
+            <div>
+                <Intern
+                orgname="Edify Accelrators"
+                icon="https://media-exp1.licdn.com/dms/image/C5103AQFkcaxAZih5tA/profile-displayphoto-shrink_800_800/0/1569669295944?e=1671062400&v=beta&t=eqBl6PWFXZlNDqUZrNtEPu8oXqD4_Cyk5tW4Wfo3ny4"
+                city="Pune"
+                country="India"
+                role="Web devolopment Intern"
+                startdate="Feb/2022"
+                enddate="May/2022"
+                info="Edify Accelerators. Strategy Management "
+                x="150"
+                y="100"
+                />
+            </div>
 
 
             <div>
